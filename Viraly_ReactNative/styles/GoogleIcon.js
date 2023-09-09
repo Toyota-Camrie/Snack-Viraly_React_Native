@@ -6,6 +6,7 @@ export default function GoogleIcon({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the Google button image on the login screen*/
 const styles = StyleSheet.create({
   google_image: {
     width: 24,

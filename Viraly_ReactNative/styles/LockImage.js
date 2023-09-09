@@ -6,6 +6,7 @@ export default function LockImage({ placeholderImageSource }) {
   );
 }
 
+{/*This is the stylesheet for the lock image on the forgot password screen*/}
 const styles = StyleSheet.create({
   image: {
     width: 224,

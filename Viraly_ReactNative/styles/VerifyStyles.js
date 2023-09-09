@@ -1,21 +1,27 @@
 import { StyleSheet } from 'react-native';
 
+/*This is the stylesheet for the verify email screen*/ 
 const VerifyStyles = StyleSheet.create({
+
+  /*This is the style for the container on the verify email screen*/ 
   container: {
     alignItems: 'center',
     height: '100%',
     backgroundColor: 'rgba(255, 255, 255, 1)'
   },
 
+  /*This is the style for the image container on the verify email screen*/ 
   imageContainer: {
     backgroundColor: 'light-gray',
-    paddingTop: 32
+    paddingTop: 20
   },
 
+  /*This is the style for the title textbox on the verify email screen*/ 
   loginTitle: {
-    marginTop: 24
+    marginTop: 20
   },
 
+  /*This is the style for the title text on the verify email screen*/ 
   loginText: {
     color: 'rgba(54, 69, 90, 1)',
     fontFamily: 'Montserrat',
@@ -24,10 +30,14 @@ const VerifyStyles = StyleSheet.create({
     fontWeight: 600
   },
 
+  /*This is the style for the text description box on the verify email screen*/ 
   descriptionBox: {
-    marginTop: 12
+    marginTop: 8,
+    paddingLeft: 32,
+    paddingRight: 32
   },
 
+  /*This is the style for the description text on the verify email screen*/ 
   descriptionText: {
     color: 'rgba(73, 85, 102, 1)',
     fontFamily: 'Work Sans',
@@ -37,11 +47,14 @@ const VerifyStyles = StyleSheet.create({
     textAlign: 'center'
   },
 
+  /*This is the style for the code input container on the verify email screen*/ 
   numberEntries: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+    marginBottom: 20
   },
 
+  /*This is the style for the code text input on the verify email screen*/ 
   numberBox: {
     marginTop: 24,
     marginRight: 16,
@@ -54,10 +67,20 @@ const VerifyStyles = StyleSheet.create({
     color: 'rgba(43, 44, 67, 1)'
   },
 
+  /*This is the style for the Send Code Again text on the verify email screen*/ 
+  newCode: {
+    marginBottom: 16,
+    color: 'rgba(43, 44, 67, 1)',
+    fontWeight: 400,
+    fontFamily: 'Roboto'
+  },
+
+  /*This is the style for the Confirm button on the verify email screen*/ 
   nextButton: {
     marginTop: 32
   },
 
+  /*This is the style for the Confirm button on the verify email screen*/
   buttonStyle: {
     width: 288,
     height: 64,
@@ -66,6 +89,7 @@ const VerifyStyles = StyleSheet.create({
     backgroundColor: 'rgba(1, 167, 190, 1)'
   },
 
+  /*This is the style for the Confirm button text on the verify email screen*/
   buttonText: {
     color: 'rgba(255, 255, 255, 1)',
     textAlign: 'center',
@@ -77,17 +101,7 @@ const VerifyStyles = StyleSheet.create({
     paddingBottom: 21
   },
 
-  sendCode: {
-    marginTop: 20
-  },
-
-  codeText: {
-    fontFamily: 'Mulish',
-    color: 'rgba(10, 32, 73, 1)',
-    fontWeight: 500,
-    fontSize: 16
-  },
-
+  /*This is the style for the footer on the verify email screen*/
   footerContainer: {
     alignItems: 'center',
     width: 124,

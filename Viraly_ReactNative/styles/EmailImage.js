@@ -6,10 +6,11 @@ export default function EmailImage({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the email image on the verify email screen*/
 const styles = StyleSheet.create({
   image: {
-    width: 160,
-    height: 168,
+    width: 112,
+    height: 112,
     flexShrink: 0
   },
 });

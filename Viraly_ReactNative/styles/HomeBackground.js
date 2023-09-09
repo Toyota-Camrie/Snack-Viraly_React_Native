@@ -6,6 +6,7 @@ export default function HomeBackground({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the home screen background image*/
 const styles = StyleSheet.create({
   image: {
     width: 304,

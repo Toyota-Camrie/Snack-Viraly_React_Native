@@ -1,22 +1,28 @@
 import { StyleSheet } from 'react-native';
 
+{/*This is the stylesheet for the signup screen*/}
 const SignupStyles = StyleSheet.create({
+
+  /*This is the container for the signup screen*/
   container: {
     alignItems: 'center',
     height: '100%',
     backgroundColor: 'rgba(255, 255, 255, 1)'
   },
 
+  /*This is the logo container for the signup screen*/
   imageContainer: {
     backgroundColor: 'light-gray',
     paddingTop: 64
   },
 
+  /*This is the sign up title box for the signup screen*/
   loginTitle: {
     paddingRight: 184,
     marginTop: 24
   },
 
+  /*This is the sign up title text for the signup screen*/
   loginText: {
     color: 'rgba(54, 69, 90, 1)',
     fontFamily: 'Montserrat',
@@ -25,12 +31,14 @@ const SignupStyles = StyleSheet.create({
     fontWeight: 600
   },
 
+  /*This is the text description box for the signup screen*/
   descriptionBox: {
     marginTop: 12,
     paddingRight: 102.67,
     paddingLeft: 8
   },
 
+  /*This is the description text for the signup screen*/
   descriptionText: {
     color: 'rgba(73, 85, 102, 1)',
     fontFamily: 'Work Sans',
@@ -39,6 +47,7 @@ const SignupStyles = StyleSheet.create({
     fontWeight: 400
   },
 
+  /*This is the username input for the signup screen*/
   usernameBox: {
     marginTop: 24,
     paddingLeft: 16,
@@ -52,6 +61,7 @@ const SignupStyles = StyleSheet.create({
     color: 'rgba(0,0,0,0.7)'
   },
 
+  /*This is the email address input for the signup screen*/
   emailBox: {
     marginTop: 24,
     paddingLeft: 16,
@@ -65,6 +75,7 @@ const SignupStyles = StyleSheet.create({
     color: 'rgba(0,0,0,0.7)'
   },
 
+  /*This is the password input for the signup screen*/
   passwordBox: {
     marginTop: 24,
     paddingLeft: 16,
@@ -78,6 +89,7 @@ const SignupStyles = StyleSheet.create({
     color: 'rgba(0,0,0,0.7)'
   },
 
+  /*This is the confirm password input for the signup screen*/
   confirmBox: {
     marginTop: 24,
     paddingLeft: 16,
@@ -91,10 +103,12 @@ const SignupStyles = StyleSheet.create({
     color: 'rgba(0,0,0,0.7)'
   },
 
+  /*This is the Sign Up button box for the signup screen*/
   signinButton: {
     marginTop: 32
   },
 
+  /*This is the Sign Up button style for the signup screen*/
   buttonStyle: {
     width: 288,
     height: 64,
@@ -103,6 +117,7 @@ const SignupStyles = StyleSheet.create({
     backgroundColor: 'rgba(1, 167, 190, 1)'
   },
 
+  /*This is the Sign Up button text for the signup screen*/
   buttonText: {
     color: 'rgba(255, 255, 255, 1)',
     textAlign: 'center',
@@ -114,10 +129,12 @@ const SignupStyles = StyleSheet.create({
     paddingBottom: 21
   },
 
+  /*This is the container for the back link to the login screen*/
   backLink: {
     marginTop: 20
   },
 
+  /*This is the link text on the signup screen*/
   backText: {
     fontFamily: 'Mulish',
     color: 'rgba(10, 32, 73, 1)',
@@ -125,6 +142,7 @@ const SignupStyles = StyleSheet.create({
     fontSize: 18
   },
 
+  /*This is the footer - specifically the rectangle - for the signup screen*/
   footerContainer: {
     alignItems: 'center',
     width: 124,

@@ -6,6 +6,7 @@ export default function NavbarStyles({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the footer navigation icons*/
 const styles = StyleSheet.create({
   image: {
     width: 32,

@@ -6,6 +6,7 @@ export default function MenuIcon({ placeholderImageSource }) {
   );
 }
 
+/*This is the styleheet for the menu image on the home screen*/
 const styles = StyleSheet.create({
   image: {
     width: 48,

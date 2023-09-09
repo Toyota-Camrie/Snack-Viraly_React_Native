@@ -6,6 +6,7 @@ export default function BackButtonImage({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the back button image*/
 const styles = StyleSheet.create({
   backButton: {
     width: 48,

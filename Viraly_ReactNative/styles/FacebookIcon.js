@@ -6,6 +6,7 @@ export default function FacebookIcon({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the Facebook button image on the login screen*/
 const styles = StyleSheet.create({
   facebook: {
     width: 24,

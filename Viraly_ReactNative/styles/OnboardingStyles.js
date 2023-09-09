@@ -1,19 +1,14 @@
 import { StyleSheet } from 'react-native';
 
+/*This is the stylesheet for the onboarding screen*/
 const OnboardingStyles = StyleSheet.create({
-    //For the main image "box"
-    imageContainer: {
-        backgroundColor: 'light-gray'
-      },
     
-    //For the image (also in the OnboardingImg.js file)
-      image: {
-        width: 414,
-        height: 487,
-        flexShrink: 0
-      },
+  /*This is the style for the image container on the onboarding screen*/
+  imageContainer: {
+    backgroundColor: 'light-gray'
+  },
     
-    //For the little blue rectangle
+    /*This is the style for the blue rectangle on the onboarding screen*/
       blueRectangle: {
         width: 24,
         height: 8,
@@ -22,7 +17,7 @@ const OnboardingStyles = StyleSheet.create({
         backgroundColor: 'rgba(1, 167, 190, 1)'
       },
     
-    //For the gray circle next to the blue rectangle
+    /*This is the style for the gray circle on the onboarding screen*/
       grayCircle: {
         width: 8,
         height: 8,
@@ -31,7 +26,8 @@ const OnboardingStyles = StyleSheet.create({
         backgroundColor: 'rgba(0, 0, 0, 1)'
       },
     
-    //For the frame containing the rectangle and circle  
+    /*This is the style for the frame containing the blue
+    rectangle and the gray circle on the onboarding screen*/  
       rectangleFrame: {
         alignItems: 'flex-start',
         flexDirection: 'row',
@@ -39,7 +35,7 @@ const OnboardingStyles = StyleSheet.create({
         marginTop: 60
       },
     
-    //For the text in the title box  
+    /*This is the style for the title text on the onboarding screen*/ 
       titleContent: {
         color: 'rgba(0, 0, 0, 1)',
         textAlign: 'center',
@@ -49,14 +45,12 @@ const OnboardingStyles = StyleSheet.create({
         fontWeight: 700
       },
     
-    //For the title box as a whole  
+    /*This is the style for the title box on the onboarding screen*/ 
       titleBox: {
-        marginRight: 44,
-        paddingTop: 41,
-        alignItems: 'center'
+        paddingTop: 41
       },
     
-    //For the text in the description
+    /*This is the style for the description text on the onboarding screen*/
       textContent: {
         color: 'rgba(130, 130, 130, 1)',
         textAlign: 'center',
@@ -66,29 +60,27 @@ const OnboardingStyles = StyleSheet.create({
         fontWeight: 400
       },
     
-    //For the description text box
+    /*This is the style for the text description box on the onboarding screen*/
       textDescription: {
-        //marginLeft: 37,
+        paddingLeft: 16,
+        paddingRight: 16,
         width: 340,
         height: 44,
-        alignItems: 'center',
         marginTop: 24
       },
     
-    //For the text on the button
+    /*This is the style for the Get Started button text on the onboarding screen*/
       buttonText: {
-        //marginLeft: '35',
-        //paddingBottom: '14',
         color: 'rgba(255, 255, 255, 1)',
         textAlign: 'center',
         fontFamily: 'Montserrat',
         fontSize: 16,
         fontStyle: 'normal',
         fontWeight: 600,
-        paddingTop: 15
+        paddingTop: 16
       },
     
-    //For the button style  
+    /*This is the style for the Get Started button on the onboarding screen*/ 
       buttonStyle: {
         width: 165,
         height: 51,
@@ -97,27 +89,23 @@ const OnboardingStyles = StyleSheet.create({
         backgroundColor: 'rgba(1, 167, 190, 1)'
       },
     
-    //For the whole button
+    /*This is the style for the Get Started button on the onboarding screen*/ 
       startButton: {
-        //marginLeft: 124,
-        //marginRight: 125,
-        marginTop: 49,
-        alignItems: 'center'
+        marginTop: 49
       },
     
-    //For the blue rectangle in the footer  
+    /*This is the style for the footer on the onboarding screen*/   
       containFooter: {
         width: 124,
         height: 6,
         flexShrink: 0,
         borderRadius: 17,
-        paddingLeft: 147,
         marginTop: 52,
         marginBottom: 28,
         backgroundColor: 'rgba(1, 167, 190, 1)'
       },
     
-    //For the whole screen
+    /*This is the style for the container on the onboarding screen*/ 
       container: {
         alignItems: 'center',
         backgroundColor: 'rgba(255, 255, 255, 1)',

@@ -6,6 +6,7 @@ export default function ProfileImage({ placeholderImageSource }) {
   );
 }
 
+/*This is the stylesheet for the profile image on the home screen*/ 
 const styles = StyleSheet.create({
   image: {
     width: 48,

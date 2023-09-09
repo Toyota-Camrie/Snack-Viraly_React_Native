@@ -6,6 +6,7 @@ export default function SplashImage({ placeholderImageSource }) {
   );
 }
 
+{/*This is the stylesheet for the logo on the splash screen*/}
 const styles = StyleSheet.create({
   image: {
     width: 201.165,

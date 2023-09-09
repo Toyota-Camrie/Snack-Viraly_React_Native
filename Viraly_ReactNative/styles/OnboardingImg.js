@@ -6,6 +6,7 @@ export default function OnboardingImg({ placeholderImageSource }) {
   );
 }
 
+{/*This is the stylesheet for the background image on the onboarding screen*/}
 const styles = StyleSheet.create({
   image: {
     width: 414,

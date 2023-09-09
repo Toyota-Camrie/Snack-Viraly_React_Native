@@ -1,23 +1,29 @@
 import { StyleSheet } from 'react-native';
 
+{/*This is the stylesheet for the login screen*/}
 const LoginStyles = StyleSheet.create({
+
+  /*This is the container for the login screen*/
   container: {
     alignItems: 'center',
     height: '100%',
     backgroundColor: 'rgba(255, 255, 255, 1)'
   },
 
+  /*This is the image container for the logo on the login screen*/
   imageContainer: {
     backgroundColor: 'light-gray',
     paddingTop: 64
   },
 
+  /*This is the login title box for the login screen*/
   loginTitle: {
     paddingRight: 276.32,
     paddingLeft: 64,
     marginTop: 24
   },
 
+  /*This is the login title text for the login screen*/
   loginText: {
     color: 'rgba(54, 69, 90, 1)',
     fontFamily: 'Montserrat',
@@ -26,12 +32,14 @@ const LoginStyles = StyleSheet.create({
     fontWeight: 600
   },
 
+  /*This is the text description box for the login screen*/
   descriptionBox: {
     marginTop: 12,
     paddingRight: 102.67,
     paddingLeft: 8
   },
 
+  /*This is the description text for the login screen*/
   descriptionText: {
     color: 'rgba(73, 85, 102, 1)',
     fontFamily: 'Work Sans',
@@ -40,6 +48,7 @@ const LoginStyles = StyleSheet.create({
     fontWeight: 400
   },
 
+  /*This is the text input box for the email input for the login screen*/
   emailBox: {
     marginTop: 24,
     paddingLeft: 16,
@@ -53,6 +62,7 @@ const LoginStyles = StyleSheet.create({
     color: 'rgba(0,0,0,0.7)'
   },
 
+  /*This is the text input box for the password input for the login screen*/
   passwordBox: {
     marginTop: 24,
     paddingLeft: 16,
@@ -66,11 +76,13 @@ const LoginStyles = StyleSheet.create({
     color: 'rgba(0,0,0,0.7)'
   },
 
+  /*This is the box for the Forgot Password link for the login screen*/
   forgotBox: {
     paddingLeft: 160,
     marginTop: 12
   },
 
+  /*This is the Forgot Password link text for the login screen*/
   forgotPassword: {
     color: 'rgba(10, 32, 73, 1)',
     fontFamily: 'Inter',
@@ -79,10 +91,12 @@ const LoginStyles = StyleSheet.create({
     fontWeight: 400
   },
 
+  /*This is the signup button for the login screen*/
   signinButton: {
     marginTop: 16
   },
 
+  /*This is the signup button style for the login screen*/
   buttonStyle: {
     width: 288,
     height: 64,
@@ -91,6 +105,7 @@ const LoginStyles = StyleSheet.create({
     backgroundColor: 'rgba(1, 167, 190, 1)'
   },
 
+  /*This is the signup button text for the login screen*/
   buttonText: {
     color: 'rgba(255, 255, 255, 1)',
     textAlign: 'center',
@@ -102,6 +117,7 @@ const LoginStyles = StyleSheet.create({
     paddingBottom: 21
   },
 
+  /*This is the style for "Not have account?" text for the login screen*/
   signUp: {
     color: 'rgba(0, 0, 0, 1)',
     textAlign: 'center',
@@ -112,14 +128,17 @@ const LoginStyles = StyleSheet.create({
     marginTop: 24
   },
 
+  /*This is the style for "Sign Up" link text for the login screen*/
   signupText: {
     fontWeight: 600
   },
 
+  /*This is the text box for "OR" on the login screen*/
   other: {
     marginTop: 16
   },
 
+  /*This is the text "OR" on the login screen*/
   or: {
     color: 'rgba(10, 32, 73, 1)',
     fontFamily: 'Inter',
@@ -128,11 +147,13 @@ const LoginStyles = StyleSheet.create({
     fontWeight: 500
   },
 
+  /*This is the text box for "Sign In with" on the login screen*/
   otherSign: {
     marginTop: 16,
     marginBottom: 16
   },
 
+  /*This is the text for "Sign In with" on the login screen*/
   otherText: {
     color: 'rgba(151, 151, 151, 1)',
     textAlign: 'center',
@@ -142,10 +163,12 @@ const LoginStyles = StyleSheet.create({
     fontWeight: 600
   },
 
+  /*This is the container for the social media boxes for the login screen*/
   boxes: {
     flexDirection: 'row'
   },
 
+  /*This is the Google button for the login screen*/
   googleBox: {
     width: 128,
     height: 60,
@@ -159,6 +182,7 @@ const LoginStyles = StyleSheet.create({
     marginRight: 24
   },
 
+  /*This is the Facebook button for the login screen*/
   facebookBox: {
     width: 128,
     height: 60,
@@ -171,6 +195,7 @@ const LoginStyles = StyleSheet.create({
     justifyContent: 'center'
   },
 
+  /*This is the footer for the login screen*/
   footerContainer: {
     alignItems: 'center',
     width: 124,
